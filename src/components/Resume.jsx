@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDownCircle } from 'lucide-react'; // Optional icon
+import { ArrowDownCircle } from 'lucide-react';
 
 export default function Resume() {
   return (
@@ -16,13 +16,13 @@ export default function Resume() {
 
       <div className="w-full max-w-4xl bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center">
         <iframe
-          src="/Adesh_Resume.pdf"
+          src="Adesh_Resume.pdf"
           title="Resume"
           className="w-full h-[500px] rounded-lg border border-gray-300 dark:border-gray-600"
-        ></iframe>
+        />
 
         <a
-          href="/Adesh_Resume.pdf"
+          href="Adesh_Resume.pdf"
           download
           className="mt-6 inline-flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-700 transition"
         >
