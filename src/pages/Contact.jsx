@@ -17,13 +17,13 @@ export default function Contact() {
           <p><strong>Phone:</strong> +91-8791799154</p>
           <p>
             <strong>LinkedIn:</strong> 
-            <a href="https://www.linkedin.com/in/adesh-kumar-sharma-b09945141/" className="text-blue-600 dark:text-blue-400 hover:underline">
+            <a href="www.linkedin.com/in/adeshkusharma" className="text-blue-600 dark:text-blue-400 hover:underline">
               linkedin.com/in/adesh
             </a>
           </p>
           <p>
             <strong>GitHub:</strong> 
-            <a href="https://github.com/AdeshKumarSharma?tab=repositories" className="text-blue-600 dark:text-blue-400 hover:underline">
+            <a href="https://github.com/AdeshKumarSharma" className="text-blue-600 dark:text-blue-400 hover:underline">
               github.com/adesh
             </a>
           </p>

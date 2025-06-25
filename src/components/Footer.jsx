@@ -9,7 +9,7 @@ const Footer = () => {
         </p>
         <div className="flex justify-center flex-wrap gap-4 text-sm">
           <a
-            href="https://github.com/AdeshKumarSharma?tab=repositories"
+            href="https://github.com/AdeshKumarSharma"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -17,7 +17,7 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/adesh-kumar-sharma-b09945141/"
+            href="www.linkedin.com/in/adeshkusharma"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
