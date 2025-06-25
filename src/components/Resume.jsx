@@ -22,7 +22,7 @@ export default function Resume() {
         />
 
         <a
-          href="Adesh_Resume.pdf"
+          href="Adesh_Kumar_Sharma_Resume.pdf"
           download
           className="mt-6 inline-flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-700 transition"
         >

@@ -9,7 +9,7 @@ const Footer = () => {
         </p>
         <div className="flex justify-center flex-wrap gap-4 text-sm">
           <a
-            href="https://github.com/AdeshKumarSharma/"
+            href="https://github.com/AdeshKumarSharma?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"

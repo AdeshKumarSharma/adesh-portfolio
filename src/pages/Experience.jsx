@@ -8,10 +8,10 @@ export default function Experience() {
       company: "Blinkit (2024)",
       description:
       <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
-        <li> 	Managed procurement workflows using SAP Portal (Purchase Order creation, GRN processing, invoice reconciliation).</li>
+        <li>Managed procurement workflows using SAP Portal (Purchase Order creation, GRN processing, invoice reconciliation).</li>
         <li>Managed and resolved incidents through enterprise IT Ticketing Tools (e.g., SAP).</li>
-        <li> 	Worked on ITSM ticketing tools to track and resolve supply chain system issues.</li>
-        <li> 	Collaborated with the technical team for automation of logistics and order tracking.</li>
+        <li>Worked on ITSM ticketing tools to track and resolve supply chain system issues.</li>
+        <li>Collaborated with the technical team for automation of logistics and order tracking.</li>
  	      <li>Handled incident and issue tracking through enterprise-level ticketing tools contributing to faster resolution cycles.</li>
  	      <li>Collaborated with cross-functional teams to ensure efficient ticket lifecycle management and improve service delivery metrics.</li>
       </ul>

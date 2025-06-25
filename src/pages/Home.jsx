@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import adeshHero from '../assets/adesh-hero.jpg'
+import { Link } from 'react-router-dom';
+
 
 export default function Home() {
   return (
@@ -35,18 +37,21 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          <a
-            href="/contact"
-            className="px-5 py-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold shadow-lg transition"
-          >
-            Contact Me
-          </a>
-          <a
-            href="/projects"
-            className="px-5 py-2 rounded-full border border-blue-600 text-blue-600 hover:bg-blue-100 dark:hover:bg-gray-700 text-sm font-semibold transition"
-          >
-            View Projects
-          </a>
+          <div className="mt-4 flex justify-center md:justify-start space-x-4">
+            <Link
+              to="/contact"
+              className="px-5 py-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold shadow-lg transition"
+            >
+              Contact Me
+            </Link>
+
+            <Link
+              to="/projects"
+              className="px-5 py-2 rounded-full border border-blue-600 text-blue-600 hover:bg-blue-100 dark:hover:bg-gray-700 text-sm font-semibold transition"
+            >
+              View Projects
+            </Link>
+          </div>
         </motion.div>
       </div>
 

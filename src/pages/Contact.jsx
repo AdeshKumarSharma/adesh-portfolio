@@ -23,7 +23,7 @@ export default function Contact() {
           </p>
           <p>
             <strong>GitHub:</strong> 
-            <a href="https://github.com/AdeshKumarSharma/" className="text-blue-600 dark:text-blue-400 hover:underline">
+            <a href="https://github.com/AdeshKumarSharma?tab=repositories" className="text-blue-600 dark:text-blue-400 hover:underline">
               github.com/adesh
             </a>
           </p>
